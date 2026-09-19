@@ -23,7 +23,7 @@ I used it for five distinct jobs:
 | 2 | **Code generation** | "Write client-side validation for a Name / Email / Message form with inline errors and no backend." | The `rules` object and `validateField()` function in `js/script.js`. |
 | 3 | **Asset generation** | "Generate lightweight placeholder thumbnails for six projects — no external services." | A short Python script that wrote six hand-tuned SVG files into `assets/images/projects/`. |
 | 4 | **Code review** | "Review this CSS for colour-contrast and accessibility problems in both themes." | Four concrete findings, including the contrast failure described in section 4. |
-| 5 | **Documentation support** | "Draft the technical documentation section on the CSS architecture." | A first draft of `docs/technical-documentation.md`, which I then rewrote to match how I had actually structured the file. |
+| 5 | **Documentation support** | "Draft the technical documentation section on the CSS architecture , and formalize the Ai usage report draft I wrote." | A first draft of `docs/technical-documentation.md`, which I then rewrote to match how I had actually structured the file. |
 
 ### Why not more tools
 
