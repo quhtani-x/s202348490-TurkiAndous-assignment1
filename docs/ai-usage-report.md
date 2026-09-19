@@ -29,7 +29,7 @@ I used it for five distinct jobs:
 
 The rubric rewards *meaningful* AI use, not the number of logos. Splitting the
 work across three assistants would have meant three of them holding partial
-context and contradicting each other — particularly on the design tokens, where
+context and contradicting each other and would require more time to review and coordinate  — especially on the design tokens, where
 one inconsistent colour breaks the whole light theme.
 
 ---
