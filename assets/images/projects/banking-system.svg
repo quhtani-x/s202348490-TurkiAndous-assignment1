@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="banking-system placeholder artwork">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+<pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".10"/></pattern>
+</defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<rect width="800" height="500" fill="url(#p)"/>
+
+<g stroke="#fff" stroke-opacity=".85" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M230 350h340M270 350V260M350 350V210M430 350V280M510 350V180"/></g>
+<path d="M230 150h340l-40 50H270z" fill="#fff" fill-opacity=".85"/>
+</svg>
