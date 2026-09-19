@@ -19,7 +19,7 @@ vanilla JavaScript. No frameworks, no build step, no dependencies — open
 
 **Content**
 - **About Me** — intro, tagline and profile image
-- **Projects** — six projects, each with a title, description, tech chips and a placeholder image
+- **Projects** — seven projects, each with a title, description, tech chips and a placeholder image; the flagship spans the full grid width
 - **Contact** — a Name / Email / Message form with client-side validation (no backend)
 - Extra sections: hero, stats, skills, and an experience timeline
 

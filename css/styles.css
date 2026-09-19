@@ -230,6 +230,13 @@ body::after {
 .chips li { font-size: 0.74rem; padding: 4px 11px; border-radius: 20px; background: var(--chip-bg); border: 1px solid var(--border); color: var(--muted); }
 .plink { color: var(--accent2); font-size: 0.9rem; font-weight: 600; align-self: flex-start; }
 .plink:hover { text-decoration: underline; }
+
+/* the flagship project spans the full grid width, image beside the text */
+.pcard.featured { grid-column: 1 / -1; flex-direction: row; }
+.pcard.featured .pthumb { width: 38%; flex-shrink: 0; aspect-ratio: auto; border-bottom: 0; border-right: 1px solid var(--border); }
+.pcard.featured .pbody { padding: 30px; }
+.pcard.featured h3 { font-size: 1.45rem; }
+.pnote { color: var(--muted); font-size: 0.95rem; font-weight: 500; white-space: nowrap; }
 .empty-state { text-align: center; color: var(--muted); margin-top: 30px; }
 
 /* ---------- experience timeline ---------- */
@@ -310,6 +317,11 @@ body::after {
   .about-grid { grid-template-columns: 1fr; }
   .about-photo { max-width: 340px; margin: 0 auto; }
   .section { padding: 70px 7vw; }
+  /* the featured card stacks like every other card once there is no room beside the image */
+  .pcard.featured { flex-direction: column; }
+  .pcard.featured .pthumb { width: 100%; aspect-ratio: 8 / 5; border-right: 0; border-bottom: 1px solid var(--border); }
+  .pcard.featured .pbody { padding: 22px; }
+  .pnote { white-space: normal; }
 }
 
 @media (max-width: 600px) {

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Petroly AIO placeholder artwork">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#7c6cff"/></linearGradient>
+<pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".10"/></pattern>
+</defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<rect width="800" height="500" fill="url(#p)"/>
+<g fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="5" stroke-linejoin="round">
+<rect x="150" y="120" width="110" height="80" rx="8"/>
+<rect x="560" y="140" width="100" height="70" rx="8"/>
+<rect x="200" y="330" width="120" height="70" rx="8"/>
+<rect x="540" y="320" width="110" height="90" rx="8"/>
+</g>
+<path d="M230 370 L330 300 L400 250 L470 190 L600 175" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 12"/>
+<circle cx="230" cy="370" r="13" fill="#fff" fill-opacity=".85"/>
+<circle cx="400" cy="250" r="9" fill="#fff" fill-opacity=".85"/>
+<path d="M600 128c26 0 47 21 47 46 0 33-47 71-47 71s-47-38-47-71c0-25 21-46 47-46z" fill="#fff" fill-opacity=".85"/>
+<circle cx="600" cy="174" r="15" fill="#123" fill-opacity=".55"/>
+</svg>

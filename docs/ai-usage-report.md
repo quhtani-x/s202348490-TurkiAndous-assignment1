@@ -21,7 +21,7 @@ I used it for five distinct jobs:
 | --- | --- | --- | --- |
 | 1 | **Refactoring for theming** | "Take this dark-only stylesheet and restructure it so a light theme is one variable swap." | Every hard-coded colour moved into CSS custom properties on `:root`, plus a `:root[data-theme="light"]` block that only redefines the tokens. |
 | 2 | **Code generation** | "Write client-side validation for a Name / Email / Message form with inline errors and no backend." | The `rules` object and `validateField()` function in `js/script.js`. |
-| 3 | **Asset generation** | "Generate lightweight placeholder thumbnails for six projects — no external services." | A short Python script that wrote six hand-tuned SVG files into `assets/images/projects/`. |
+| 3 | **Asset generation** | "Generate lightweight placeholder thumbnails for these projects — no external services." | A short Python script that wrote seven hand-tuned SVG files into `assets/images/projects/`. |
 | 4 | **Code review** | "Review this CSS for colour-contrast and accessibility problems in both themes." | Four concrete findings, including the contrast failure described in section 4. |
 | 5 | **Documentation support** | "Draft the technical documentation section on the CSS architecture , and formalize the Ai usage report draft I wrote." | A first draft of `docs/technical-documentation.md`, which I then rewrote to match how I had actually structured the file. |
 
@@ -127,7 +127,7 @@ the page render. Concretely:
 
 **Rejected — external image service.** The AI suggested
 `https://placehold.co/800x500` for the project thumbnails. I rejected it: it
-adds six network requests, breaks when the site is opened offline, and makes an
+adds a network request per thumbnail, breaks when the site is opened offline, and makes an
 assignment about HTML/CSS/JS depend on a third party staying online. I asked for
 locally generated SVGs instead — each is under 1.2 KB, stays sharp at any zoom
 level, and is genuinely part of the repository.

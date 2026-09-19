@@ -51,7 +51,7 @@ s202348490-TurkiAndous-assignment1/
 │   ├── resume.pdf
 │   └── images/
 │       ├── profile.jpg             # 600×900, 57 KB
-│       └── projects/               # 6 SVG thumbnails, ~1 KB each
+│       └── projects/               # 7 SVG thumbnails, ~1 KB each
 └── docs/
     ├── ai-usage-report.md
     └── technical-documentation.md
@@ -70,7 +70,7 @@ s202348490-TurkiAndous-assignment1/
   <section id="stats">        four animated figures
   <section id="about">        required — intro, tagline, portrait
   <section id="skills">       five grouped tag lists
-  <section id="projects">     required — filter bar + six project cards
+  <section id="projects">     required — filter bar + seven project cards
   <section id="experience">   ordered-list timeline
   <section id="contact">      required — validated form + contact cards
 <footer class="footer">
